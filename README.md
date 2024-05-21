@@ -9,6 +9,7 @@ Feed from the camera is fed into the python program using RTSP protocol.
 `customized_detect.py` is the backend server.
 #### Requirements
 To run this file, system must have GPU and CUDA installed.
+The wieght file used for our project is `ele_best2.pt`. If you have trained your own YOLO model, you can replace it in the statement `self.weights = YOUR_FILE.pt` inside python program 
 ```markdown
 python customized_detect.py
 ```
