@@ -14,7 +14,7 @@ python customized_detect.py
 ```
 When elephant is detected,notification alert is send to the android devices through Firebase Cloud Messaging feature. The detection details like animal identified,timestamp,cameraID and detected image is logged into the `log` table, which is in our Firebase database. 
 ## Database
-We hosted five database tables in Firebase:
+We hosted five database tables in Firebase. They are given below :
 #### Logs
 Contains details like detected cameraID, timestamp, animal and URL of detected image
 #### camera
