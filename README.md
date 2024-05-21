@@ -13,7 +13,7 @@ The weight file used for our project is `ele_best2.pt`. Our project is focused o
 ```markdown
 python customized_detect.py
 ```
-When elephant is detected,notification alert is send to the android devices through Firebase Cloud Messaging feature. The detection detailed like place,timestamp,cameraID and detected image is logged into the `log` table, which is in our Firebase database. 
+When elephant is detected,notification alert is send to the android devices through Firebase Cloud Messaging feature. The detection details like place,timestamp,cameraID and detected image is logged into the `log` table, which is in our Firebase database. 
 ### Front End
 Front end consists of two apps:
 #### User App
