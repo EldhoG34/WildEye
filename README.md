@@ -13,7 +13,19 @@ The weight file used for our project is `ele_best2.pt`. Our project is focused o
 ```markdown
 python customized_detect.py
 ```
-When elephant is detected,notification alert is send to the android devices through Firebase Cloud Messaging feature. The detection details like place,timestamp,cameraID and detected image is logged into the `log` table, which is in our Firebase database. 
+When elephant is detected,notification alert is send to the android devices through Firebase Cloud Messaging feature. The detection details like animal identified,timestamp,cameraID and detected image is logged into the `log` table, which is in our Firebase database. 
+#### Database
+We hosted five database tables in Firebase:
+##### Logs
+Contains details like detected cameraID, timestamp, animal and URL of detected image
+##### camera
+Contains details of each camera like cameraID, place, latitude, longitude and no. of sightings so far
+##### messgtable
+Stores message in report chatroom. Details associated with each message like author, message and timestamp is stored
+##### signup
+Contains details about users like authentication, place, ph. no and email
+##### tokens
+To initiaze Cloud messaging feature, we need FCM tokens of these specific devices. This table stores FCM token of each devices 
 ### Front End
 Front end consists of two apps:
 #### User App
