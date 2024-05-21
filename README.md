@@ -9,7 +9,7 @@ Feed from the camera is fed into the python program using RTSP protocol.
 `customized_detect.py` is the backend server.
 #### Requirements
 To run this file, system must have GPU and CUDA installed.
-The weight file used for our project is `ele_best2.pt`. If you have trained your own YOLO model, you can replace it in the statement `self.weights = YOUR_FILE.pt` inside python program. 
+The weight file used for our project is `ele_best2.pt`. Our project is focused on Elephant detection. If you have trained your own YOLO model with multiple animals, you can replace it in the statement `self.weights = YOUR_FILE.pt` inside python program. 
 ```markdown
 python customized_detect.py
 ```
@@ -22,7 +22,7 @@ Android app which need minimum SDK version of 21. Receives alert, view recent al
 flutter build apk
 ```
 #### Admin App
-This is a web application is handled by respective Authority. Functionalities include receive concerns from public, broadcast alerts, management of cameras and flagging users. Run the command below in the admin folder to launch the application in web browser
+This is a web application handled by respective Authority. Functionalities include receive concerns from public, broadcast alerts, management of cameras and flagging users. Run the command below in the admin folder to launch the application in web browser
 ```markdown 
 flutter run
 ```
