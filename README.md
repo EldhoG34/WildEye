@@ -27,6 +27,7 @@ Contains details about users like authentication, place, ph. no and email
 To initiaze Cloud messaging feature, we need FCM tokens of these specific devices. This table stores FCM token of each devices 
 ## Front End
 Front end consists of two apps:
+####NOTE : Before using both admin and user flutter projects, connect your projects to your firebase account using `flutterfire`
 ### User App
 Android app which need minimum SDK version of 21. Receives alert, view recent alerts along with detected image. Map screen with cameras marked in it. There is a report chatroom feature in which Admin can broadcast important notices or share information. Users can also raise concerns in it, which will be visible in admin inbox. `User` folder contains the flutter project of user app. Run the command below in cmd to build apk
 ```markdown 
