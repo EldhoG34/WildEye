@@ -50,20 +50,11 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAcnMPINuQXSehLmOdZLuSLDDNhaJa5iCk',
-    appId: '1:969165581593:web:62d3f8dd2bde3f9a566988',
-    messagingSenderId: '969165581593',
-    projectId: 'demo',
-    authDomain: 'ebin-7c38c.firebaseapp.com',
-    storageBucket: 'ebin-7c38c.appspot.com',
+    #USE YOUR OWN firebase_option.dart
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDaGkRadOtLvrcPdIMoxJH9j4qyrWD4FE8',
-    appId: '1:969165581593:android:a9e8eddcc8346ae0566988',
-    messagingSenderId: '969165581593',
-    projectId: 'ebin-7c38c',
-    storageBucket: 'ebin-7c38c.appspot.com',
+     #USE YOUR OWN firebase_option.dart
   );
 
 }
